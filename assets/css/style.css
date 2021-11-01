@@ -15,6 +15,7 @@ body {
 
 h1, h2 {
     color: #1c74bc;
+    text-decoration: underline #f05a29 2.5px;
 }
 
 
@@ -24,6 +25,8 @@ h1, h2 {
     width: auto;
     margin-left: 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: contain;
 }
 
 #menu li {
@@ -32,7 +35,7 @@ h1, h2 {
     margin-right: 30px;
     margin-top: 10px;
     text-transform: uppercase;
-    line-height: 125px;
+    line-height: 126px;
     letter-spacing: 2px;
     font-size: 200%;
     margin-left: 30px;
@@ -55,25 +58,36 @@ h1, h2 {
 
 
 .main-landing {
-    width:100vw;
+    width:100%;
     height: 90vh;
     overflow: hidden;
+    background-image: #0c2f63;
 }
 
 #main-image {
-    height: 650px;
+    height: 80vhx;
     width: auto;
     zoom: 44%;
+    object-fit: contain;
 }
 
 #who-we-are {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 200%;
     margin-top: 30px;
-    margin-left:  15px;
+    float: left;
+    width: 45vw;
+    height: 450px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-#what-we-do {
-    list-style-type:square;
-    margin-left: 30px;
+#pic2 {
+    overflow: hidden;
+    float: right;
+    height: 450px;
+    width: 50vw;
+    object-fit: fill;
+    padding-top: 10px;
+    padding-right: 10px;
 }
