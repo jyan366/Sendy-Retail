@@ -60,7 +60,7 @@ h1, h2 {
 
 .main-landing {
     width:100%;
-    height: 82vh;
+    height: 650px;
     overflow: hidden;
     background-image: #0c2f63;
     border-bottom: #f05a29 3px solid;
@@ -251,7 +251,7 @@ hr {
 .differences-section {
     border-bottom: #f05a29 3px solid;
     border-top: #f05a29 3px solid;
-    height: 50vh;
+    height: 450px;
     vertical-align: middle;
 }
 
@@ -264,8 +264,7 @@ list-style-type: none;
 }
 
 .our-brands-section {
-    height: 70vh;
-    background-color: yellow;
+    height: 600px;
 }
 
 #our-brands-image {
@@ -277,7 +276,6 @@ list-style-type: none;
 #our-brands-text {
 float: right;
 text-align: center;
-height: 50vh;
 width:50vw;
 font-size: 200%;
 padding-top: 20vh;
@@ -296,12 +294,52 @@ padding-top: 20vh;
     border: #f05a29 3px solid;
 }
 
+.contact-us-section {
+    text-align: center;
+    width: 100vw;
+    float: left;
+    font-size: 200%;
+    display: inline;
+    border-bottom: #f05a29 3px solid;
+    border-top: #f05a29 3px solid;
+    height: 150px;
+}
+
 #contact-link-button {
-    background-color :rgb(228, 240, 250);
-    color:#102F63;
-    border: #102F63 2px solid;
+    background-color :#f05a29;
+    color:white;
     text-decoration: none;
-    padding: 3px;
     font-weight: bold;
 }
 
+#contact-link-button:hover {
+    border: #102F63 3px solid;
+}
+
+
+#footer {
+    height: 450px;
+    background-color: #f05a29;
+}
+
+.social-networks {
+    text-align: center;
+    height: 150px;
+}
+
+.social-networks > li {
+    display: inline;
+    background-color: #f05a29;
+}
+
+.social-networks i {
+    font-size:160%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
+    background-color: #f05a29;
+}
+
+.social-networks a {
+    background-color: #f05a29;
+}
