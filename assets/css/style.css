@@ -73,6 +73,20 @@ h1, h2 {
     zoom: 44%;
     object-fit: contain;
     position: relative;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.11);
+    }
 }
 
 #cover-text {
@@ -239,7 +253,6 @@ hr {
     border-top: #f05a29 3px solid;
     height: 50vh;
     vertical-align: middle;
-
 }
 
 #sendy-list {
@@ -248,5 +261,47 @@ list-style-type: none;
 
 #amazon-list {
     list-style-type: none;
-
 }
+
+.our-brands-section {
+    height: 70vh;
+    background-color: yellow;
+}
+
+#our-brands-image {
+    float: left;
+    width: 50vw;
+    text-align: center;
+}
+
+#our-brands-text {
+float: right;
+text-align: center;
+height: 50vh;
+width:50vw;
+font-size: 200%;
+padding-top: 20vh;
+}
+
+#our-brands-button {
+    background-color :rgb(228, 240, 250);
+    color:#102F63;
+    border: #102F63 2px solid;
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+}
+
+#our-brands-button:hover {
+    border: #f05a29 3px solid;
+}
+
+#contact-link-button {
+    background-color :rgb(228, 240, 250);
+    color:#102F63;
+    border: #102F63 2px solid;
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+}
+
