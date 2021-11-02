@@ -60,9 +60,11 @@ h1, h2 {
 
 .main-landing {
     width:100%;
-    height: 90vh;
+    height: 82vh;
     overflow: hidden;
     background-image: #0c2f63;
+    border-bottom: #f05a29 3px solid;
+    border-top: #f05a29 3px solid;
 }
 
 #main-image {
@@ -111,7 +113,8 @@ h1, h2 {
     height: 450px;
     width: 50%;
     object-fit: fill;
-    padding-right: 20px;
+    margin-right: 20px;
+    border: #f05a29 3px solid;
 }
 
 #services {
@@ -200,4 +203,50 @@ hr {
     background-size: 70%;
     height: 100%;
     border-radius: 50%;
+}
+
+.differences-amazon {
+    font-size: 200%;
+    float: left;
+    text-align: center;
+    width: 45vw;
+    list-style-type: circle;
+}
+
+.differences-sendy {
+    font-size: 200%;
+    float: right;
+    text-align: center;
+    width: 45vw;
+    list-style-type: circle;
+    
+}
+
+.differences-header {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 25px;
+}
+
+.differences-header > p {
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.differences-section {
+    border-bottom: #f05a29 3px solid;
+    border-top: #f05a29 3px solid;
+    height: 50vh;
+    vertical-align: middle;
+
+}
+
+#sendy-list {
+list-style-type: none;
+}
+
+#amazon-list {
+    list-style-type: none;
+
 }
