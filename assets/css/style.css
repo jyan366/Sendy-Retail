@@ -355,11 +355,16 @@ footer {
     width: 100%;
 }
 
+.brands-section {
+    border-top: 3px #f05a29 solid;
+}
+
 .images {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
-    margin: 50px 50px;
+    margin: 25px 25px;
     padding: 0px;
+    transform: translate(2.5%, 2.50%) ;
 }
 
 .photo {
@@ -381,3 +386,4 @@ footer {
 .photo img {
     max-width: 100%;
     height: 100%;
+}
