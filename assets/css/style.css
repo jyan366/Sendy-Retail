@@ -9,7 +9,8 @@
 }
 
 header {
-    height: 136px;
+    height: 139px;
+    border-bottom: #f05a29 3px solid;
 }
 
 body {
@@ -69,17 +70,13 @@ h1, h2 {
     overflow: hidden;
     background-image: #0c2f63;
     border-bottom: #f05a29 3px solid;
-    border-top: #f05a29 3px solid;
 
 }
 
 #main-image {
-    height: 80vhx;
     width: auto;
     zoom: 44%;
-    object-fit: contain;
     position: relative;
-
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -96,7 +93,6 @@ h1, h2 {
 }
 
 #cover-text {
-    position: absolute;
     margin-top: 100px;
     top: 50%;
     left: 50%;
@@ -107,7 +103,9 @@ h1, h2 {
     text-decoration: none;
     font-size: 200%;
     line-height: 10vh;
+    position: absolute;
 }
+
 
 .who-section {
     margin-bottom: 20px;
@@ -324,8 +322,13 @@ padding-top: 20vh;
 
 
 footer {
+    display: inline;
     background-color: #f05a29;
     height: 150px;
+}
+
+#footer {
+    background-color: #f05a29;
 }
 
 .social-networks {
@@ -355,16 +358,20 @@ footer {
     width: 100%;
 }
 
-.brands-section {
-    border-top: 3px #f05a29 solid;
+#brands-header {
+    text-align: center;
+    font-size: 300%;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
 }
 
 .images {
     display:flex;
+    justify-content:space-evenly;
     flex-wrap: wrap;
-    margin: 25px 25px;
-    padding: 0px;
-    transform: translate(2.5%, 2.50%) ;
+    position: relative;
 }
 
 .photo {
@@ -386,4 +393,41 @@ footer {
 .photo img {
     max-width: 100%;
     height: 100%;
+}
+
+
+.contact-us-page {
+    background-color: yellow;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+iframe {
+    width: 600px;
+    height: 600px;
+}
+
+.gmap_canvas {
+    width: 600px;
+    height: 600px;
+    overflow:hidden;
+}
+
+#map-section {
+    text-align:center;
+    height:600px;
+    width:600px;
+    border: 1.5px #f05a29 solid;
+}
+
+#map-section:hover {
+    border: 3px #f05a29 solid;
+
+}
+
+
+#contact-us-form {
+    float: right;    
+    height:600px;
 }

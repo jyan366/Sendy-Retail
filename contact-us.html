@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Sendy Retail</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/sendyfavicon.png"/>
 </head>
 
 <body>
@@ -28,8 +29,42 @@
                           <a href="index.html">Home</a>
                       </li>
                   </ul>
-              </nav>      
-          </header> 
+              </nav>
+    </header> 
+    <section>
+    <div id="contact-us-page">
+
+        <div id="map-section" class="contact-us-page">
+            <div class="gmap_canvas">
+                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=dn20%208hq&t=&z=17&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+            </div>
+        </div>
+
+        <div id="contact-us-form" contact-us-page>
+            <h3>Contact Form</h3>
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
 
 </body>
 
