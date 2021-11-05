@@ -69,7 +69,7 @@ h1, h2 {
     background-position: center center;
     background-size: cover;
     width:100vw;
-    height: 750px;
+    height: 80vh;
     overflow: hidden;
     border-bottom: #f05a29 3px solid;
     
@@ -86,23 +86,14 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image */
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.11);
-    }
-}
 
 #cover-text {
     color: white;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.2) ;
+    background-color: rgba(0, 0, 0, 0.5) ;
     text-decoration: none;
-    font-size: 200%;
-    line-height: 750px;
+    font-size: 3.5vw;
+    line-height: 80vh;
     position: absolute;
     width: 100vw;
     text-align: center;
@@ -119,23 +110,22 @@ h1, h2 {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    background-color: yellow;
 }
 
 #who-we-are {
-    font-size: 200%;
+    font-size: 2.5vw;
     font-family: Lato, sans-serif;
     float: left;
     width: 45vw;
-    height: 450px;
     text-align: center;
-    vertical-align: middle;
 
 }
 
 #who-we-are p {
-    font-size: 85%;
-    margin-left: 25px;
-    margin-right: 25px;
+    font-size: 2vw;
+    margin-left: 1%;
+    margin-right: 1%;
     font-weight:150;
 
 
@@ -145,8 +135,8 @@ h1, h2 {
 #pic2 {
     overflow: hidden;
     float: right;
-    height: 450px;
-    width: 40%;
+    height: 45%;
+    width: 45%;
     object-fit: fill;
     margin-right: 20px;
     border: #f05a29 3px solid;
@@ -172,7 +162,7 @@ h1, h2 {
     float: right;
 }
 
-#center-about {
+#services-center {
     width: 33%;
     margin: 0 auto;
 }
@@ -226,7 +216,7 @@ hr {
 #circle-container {
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding: 0px;
     border-style: none;
     border-width: 1px;
     border-radius: 50%;
@@ -240,21 +230,40 @@ hr {
     border-radius: 50%;
 }
 
-.differences-amazon {
-    font-size: 200%;
+.differences-container {
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.differences-container ol {
+    border: 3px solid black;
+}
+
+#differences-amazon {
+    font-size: 2.5vw;
     float: left;
     text-align: center;
     width: 45vw;
     list-style-type: circle;
+    background-color: wheat;
 }
 
-.differences-sendy {
-    font-size: 200%;
+#differences-amazon p {
+    font-size: 2.5vw;
+}
+
+#differences-sendy {
+    font-size: 2.5vw;
     float: right;
     text-align: center;
     width: 45vw;
     list-style-type: circle;
     
+}
+
+#differences-sendy p {
+    font-size: 2.5vw;
 }
 
 .differences-header {
@@ -272,8 +281,8 @@ hr {
 .differences-section {
     border-bottom: #f05a29 3px solid;
     border-top: #f05a29 3px solid;
-    height: 450px;
     vertical-align: middle;
+    clear: left;
 }
 
 #sendy-list {
@@ -288,6 +297,7 @@ list-style-type: none;
     height: 600px;
     border-bottom: yellow 3px solid;
     border-top: yellow 3px solid;
+    clear: both;
 }
 
 #our-brands-image {
@@ -328,6 +338,7 @@ padding-top: 20vh;
     border-bottom: #f05a29 3px solid;
     border-top: #f05a29 3px solid;
     height: 150px;
+    clear: left;
 }
 
 #contact-link-button {
@@ -435,9 +446,6 @@ footer ul li a {
     border: 1.5px #f05a29 solid;
 }
 
-#map-section {
-
-}
 
 #contact-form {
     border: none;
@@ -518,8 +526,37 @@ input[type=text], select, textarea {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
+    #what-do-we-do {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #services-header {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #services-left, #services-right{
+        width:100%;
+        float:left;
+        padding: 0;
+    }
+
+    #services-center{
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
     
+
+    hr {
+        display: none;
+    }
 }
+
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
@@ -541,7 +578,72 @@ input[type=text], select, textarea {
         color: #1c74bc;
         margin-left: 0px
     }
-   
+    .who-section {
+        margin-top: 2vh;
+        background-color: yellow;
+        height: auto;
+    }
+    
+    #who-section {
+        display: inline;
+        justify-content: space-evenly;
+        margin-top: none;
+        margin-right:0px;
+    }
+    
+    #who-we-are {
+        font-size: 5vw;
+        font-family: Lato, sans-serif;
+        margin-left: 5vw;
+        width: 90vw;
+        text-align: center;
+        vertical-align: middle;
+        margin-right:0px;
+    
+    }
+    
+    #who-we-are p {
+        font-size: 4vw;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 2vh;
+        font-weight:150;
+    
+    
+    }
+    
+    
+    #pic2 {
+        overflow: hidden;
+        width: 90vw;
+        float: left;
+        margin-left: 5vw;
+        height: auto;
+        object-fit: fill;
+        border: #f05a29 3px solid;
+        margin-right:0px;
+    }  
+
+    #services {
+        width:90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .services-right-heading, .services-left-heading{
+        width: inherit;
+    }
+
+    .services-right-heading h2, .services-left-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .services-right-heading p, .services-left-heading p{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+
 }
 
 
