@@ -509,6 +509,7 @@ iframe {
     width: 40vw;
     height: 600px;
     overflow:hidden;
+    margin-bottom: 0;
 }
 
 #map-section {
@@ -561,9 +562,12 @@ input[type=text], select, textarea {
   .container {
     border-radius: 5px;
     padding: 20px;
-    border: 1.5px solid #102F63;
-    margin-top: 5px;
-  }
+    border: 1.5px #f05a29 solid;
+    margin: 5px;
+}
+
+
+
 
   #form {
       margin-bottom: 10px;
@@ -626,7 +630,7 @@ input[type=text], select, textarea {
         flex-direction: column-reverse;
         widows: 100vw;
         margin-top: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 0;
     }
     
     .gmap_canvas {
@@ -804,23 +808,23 @@ input[type=text], select, textarea {
         width: 100vw;
     }
 
+
     #menu li {
-        text-align: center;
+        text-align: right;
         display: inline-block;
         justify-content: start;
-        list-style-type: none;
         line-height: 30px;
         letter-spacing: 2px;
         width: 40vw;
-        font-size: 50%;
+        font-size: 80%;
         color: #1c74bc;
         margin-top: 10px;
     }
+
+
     #not-equal {
 display: none;
     }
-
-
 
     .differences-header h1 {
         font-size: 6vw;
