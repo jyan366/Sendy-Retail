@@ -83,7 +83,7 @@ h1, h2 {
     width:100vw;
     height: 80vh;
     overflow: hidden;
-    border-bottom: #f05a29 3px solid;
+    border-bottom: #f05a29 3px double;
     
 
 }
@@ -122,7 +122,6 @@ h1, h2 {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    background-color: yellow;
 }
 
 #who-we-are {
@@ -151,16 +150,13 @@ h1, h2 {
     height: auto;
     object-fit: fill;
     margin-right: 20px;
-    border: #f05a29 3px solid;
+    border: #f05a29 3px double;
 }
 
 #what-do-we-do {
     margin-bottom: 30px;
 }
 
-#services {
-    height: 600px;
-}
 
 #services-left {
     padding-top: 30px;
@@ -187,7 +183,7 @@ hr {
 
 
 .services-left-heading {
-    width: 60%;
+    width: 85%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -195,7 +191,7 @@ hr {
 }
 
 .services-right-heading {
-    width: 60%;
+    width: 85%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -222,7 +218,7 @@ hr {
 #services-header {
     margin: 20px 0;
     text-align: center;
-    font-size: 280%;
+    font-size: 4.5vw;
 }
 
 #circle-container {
@@ -245,7 +241,7 @@ hr {
 .differences-container {
     border-radius: 2vw;
     margin-left: 8vw;
-    border: #f05a29 .1vw solid;
+    border: #f05a29 .1vw dotted;
 
 }
 
@@ -256,6 +252,7 @@ hr {
 
 .differences-containers {
     display: flex;
+    justify-content: space-evenly;
     overflow: hidden;
     padding-top: .5vh;
     padding-bottom: .5vh;
@@ -263,15 +260,24 @@ hr {
 
 }
 
+#not-equal {
+    color: #f05a29;
+    font-size: 8vw;
+    text-align: center;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
 #differences-amazon {
     font-size: 2.5vw;
     text-align: center;
     float: left;
-    margin-left: 8vw;
     overflow: hidden;
-    width: 38vw;
+    width: 30vw;
+    margin: 0;
 }
 
 #differences-amazon p {
@@ -282,9 +288,9 @@ hr {
 #differences-sendy {
     font-size: 2.5vw;
     float: left;
-    margin-left: 8vw;
     text-align: center;
-    width: 38vw;
+    width: 30vw;
+    margin: 0;
 }
 
 #differences-sendy p {
@@ -305,9 +311,8 @@ hr {
 }
 
 .differences-section {
-    border-bottom: #f05a29 3px solid;
+    padding-top: 5vh;
     padding-bottom: 2vw;
-    border-top: #f05a29 3px solid;
     vertical-align: middle;
     clear: left;
 }
@@ -328,8 +333,8 @@ overflow: hidden;
 }
 
 .our-brands-section {
-    border-bottom: yellow 3px solid;
-    border-top: yellow 3px solid;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     clear: both;
     display: flex;
     justify-content: space-between;
@@ -353,70 +358,67 @@ font-size: 2.5vw;
 }
 
 #our-brands-button {
-    background-color :rgb(228, 240, 250);
-    color:#102F63;
-    border: #102F63 2px solid;
+    background-color :rgba(240, 90, 41, 0.8);
+    color:white;
+    border-radius: 1vw;
+    border: rgba(240, 90, 41, 0.3) 2px solid;
     text-decoration: none;
-    padding: 3px;
+    padding: 1vw;
     font-weight: bold;
+    clear: left;
 }
 
 #our-brands-button:hover {
-    border: #f05a29 3px solid;
+    background-color :rgba(240, 90, 41, 1);
+    border: rgba(240, 90, 41, 0.8) 2px solid;
 }
 
 .contact-us-section {
     text-align: center;
     width: 100vw;
     float: left;
-    font-size: 200%;
+    font-size: 2.5vw;
     display: inline;
-    border-bottom: #f05a29 3px solid;
-    border-top: #f05a29 3px solid;
-    height: 150px;
+    padding-bottom: 3vw;
     clear: left;
 }
 
 #contact-link-button {
-    background-color :#f05a29;
+    background-color :rgba(240, 90, 41, 0.8);
     color:white;
+    border-radius: 1vw;
+    border: rgba(240, 90, 41, 0.3) 2px solid;
     text-decoration: none;
+    padding: .5vw;
     font-weight: bold;
+    clear: left;
 }
 
 #contact-link-button:hover {
-    border: #102F63 3px solid;
+    background-color :rgba(240, 90, 41, 1);
+    border: rgba(240, 90, 41, 0.8) 2px solid;
 }
 
 
-footer {
-    display: inline;
-    background-color: #f05a29;
-    height: 150px;
-}
-
-#footer {
-    background-color: #f05a29;
-}
-
-footer ul li a {
-    color: #f05a29;
-}
-
-.social-networks {
+.footer-address {
+    clear: left;
     text-align: center;
-    height: 150px;
+    background-color: #f05a29;
+    border-top: #f05a29 3px solid;
+
 }
 
-.social-networks > li {
+.footer-address > li {
     display: inline;
+
 }
 
-.social-networks i {
-    font-size:160%;
-    margin: 1%;
-    padding: 5%;
-    color: #f05a29;;
+.footer-address p {
+    font-size:2.5vw;
+    background-color: #102F63;
+    color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 #photos {
@@ -432,7 +434,7 @@ footer ul li a {
 
 #brands-header {
     text-align: center;
-    font-size: 300%;
+    font-size: 4vw;
     text-decoration: none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -447,17 +449,17 @@ footer ul li a {
 }
 
 .photo {
-    width: 30%;
     text-align: center;
-    height: 240px;
+    width: 28vw;
+    height: 25vw;
     border:  #102F63 1.5px solid;
     margin: 10px 10px 10px 10px;
 }
 
 .photo:hover {
-    width: 30%;
     text-align: center;
-    height: 240px;
+    width: 28vw;
+    height: 25vw;
     border: #f05a29 3px solid;
     margin: 8.5px 8.5px;
 }
@@ -563,20 +565,8 @@ input[type=text], select, textarea {
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
 
-    #logo {
-        display: none;
-    }
-    
-    #logosmall {
-        display: inline-block;
-        margin-left: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        object-fit: contain;
-    }
     #what-do-we-do {
-        width: 65%;
-        height: 1200px;
+        width: 75%;
         margin: 0 auto;
     }
 
@@ -595,7 +585,7 @@ input[type=text], select, textarea {
         clear: both;
         width: 100%;
         float: left;
-        padding: 0;
+        margin-bottom: 5vh;
     }
 
     
@@ -605,6 +595,22 @@ input[type=text], select, textarea {
     }
 }
 
+
+/* For logo 1050px wide and down */
+@media screen and (max-width: 1050px){
+
+    #logo {
+        display: none;
+    }
+    
+    #logosmall {
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        object-fit: contain;
+    }
+}
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
@@ -624,11 +630,11 @@ input[type=text], select, textarea {
         letter-spacing: 0px;
         font-size: 120%;
         color: #1c74bc;
-        margin-left: 0px
+        margin-left: 0px;
+        direction: ltr;
     }
     .who-section {
         margin-top: 2vh;
-        background-color: yellow;
         height: auto;
     }
     
@@ -674,8 +680,11 @@ input[type=text], select, textarea {
 
     #services {
         width:90%;
-        height: 1200px;
-        margin: 0 auto;
+        margin: 0;
+    }
+
+    #services-header {
+        font-size: 6vw;
     }
 
     .services-right-heading, .services-left-heading{
@@ -690,6 +699,21 @@ input[type=text], select, textarea {
     .services-right-heading p, .services-left-heading p{
         text-align: center;
         padding: 0 20px 0 20px;
+    }
+    .photo {
+        text-align: center;
+        width: 40vw;
+        height: 35vw;
+        border:  #102F63 1.5px solid;
+        margin: 10px 10px 10px 10px;
+    }
+    
+    .photo:hover {
+        text-align: center;
+        width: 40vw;
+        height: 35vw;
+        border: #f05a29 3px solid;
+        margin: 8.5px 8.5px;
     }
 
 }
@@ -724,9 +748,14 @@ input[type=text], select, textarea {
         color: #1c74bc;
         margin-top: 10px;
     }
+    #not-equal {
+display: none;
+    }
 
-    .differences-header {
-        font-size: 3vw;
+
+
+    .differences-header h1 {
+        font-size: 5vw;
     }
 
     .differences-containers {
@@ -750,8 +779,6 @@ input[type=text], select, textarea {
     }
 
     .our-brands-section {
-        border-bottom: yellow 3px solid;
-        border-top: yellow 3px solid;
         display: inline;
     }
     
@@ -768,16 +795,52 @@ input[type=text], select, textarea {
     #our-brands-text {
     width:90vw;
     margin-left: 5vw;
+    float: left;
     font-size: 5vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
+    text-align: center;
     }
 
     #our-brands-text > br {
         display:none;
 }
+#contact-br {
+    display: none;
+}
 
-our-brands-button {
-    top: 5%;
+.contact-us-section {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    float: left;
+    font-size: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-link-button {
+    border: 1.5px #f05a29 solid;
+    color:#102F63;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 4vw;
+}
+#contact-link-button:hover {
+margin-right: -2px;
+}
+.photo {
+    text-align: center;
+    width: 80vw;
+    height: 70vw;
+    border:  #102F63 1.5px solid;
+    margin: 10px 10px 10px 10px;
+}
+
+.photo:hover {
+    text-align: center;
+    width: 80vw;
+    height: 70vw;
+    border: #f05a29 3px solid;
+    margin: 8.5px 8.5px;
 }
 }
