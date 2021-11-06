@@ -479,10 +479,17 @@ font-size: 2.5vw;
 
 .contact-info {
     min-height: 600px;
-    width: 40%;
+    width: 40vw;
     text-align:center;
     border: 1.5px #f05a29 solid;
 }
+
+#contact-form {
+    width: 40vw;
+    border: none;
+    margin-bottom: 5px;
+}
+
 
 
 #contact-form {
@@ -493,12 +500,12 @@ font-size: 2.5vw;
 
 
 iframe {
-    width: 600px;
+    width: 40vw;
     height: 600px;
 }
 
 .gmap_canvas {
-    width: auto;
+    width: 40vw;
     height: 600px;
     overflow:hidden;
 }
@@ -506,7 +513,7 @@ iframe {
 #map-section {
     text-align:center;
     height:600px;
-    width:600px;
+    width:40vw;
     border: 1.5px #f05a29 solid;
     margin: 5px;
 }
@@ -521,6 +528,7 @@ iframe {
 #contact-us-form {
     float: right;    
     height:600px;
+    width: 40vw;
 }
 
 
@@ -596,7 +604,7 @@ input[type=text], select, textarea {
 }
 
 
-/* For logo 1050px wide and down */
+/* For 1050px wide and down */
 @media screen and (max-width: 1050px){
 
     #logo {
@@ -610,6 +618,63 @@ input[type=text], select, textarea {
         margin-bottom: 10px;
         object-fit: contain;
     }
+
+    #contact-us-page {
+        display: flex;
+        flex-direction: column-reverse;
+        widows: 100vw;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .gmap_canvas {
+        width: 100vw;
+        border:0;
+        margin:0;
+
+    }
+   
+    .container {
+        width: 80vw;
+        padding-left: 2.5vw;
+        padding-right:2.5vw;
+        margin-left: 7.5vw;
+        margin-bottom: 5vw;
+    }
+    
+    #map-section {
+        width: 100vw;
+        border:0;
+        margin:0;
+    }
+    
+    iframe {
+        width: 100vw;
+        height: 600px;
+    }
+
+    #map-section:hover {
+        border:0;
+        margin:0;
+    
+    }
+
+    .contact-info {
+        width: 85vw;
+        text-align: center;
+    }
+
+    #contact-form {
+        width: 100vw;
+        border: none;
+        margin-bottom: 5px;
+    }
+    
+    
+    
+    
+    
+    
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -624,6 +689,7 @@ input[type=text], select, textarea {
         display: flex;
         justify-content: space-evenly;
         width: 100vw;
+
     }
 
     #menu li {
@@ -631,7 +697,7 @@ input[type=text], select, textarea {
         font-size: 120%;
         color: #1c74bc;
         margin-left: 0px;
-        direction: ltr;
+        
     }
     .who-section {
         margin-top: 2vh;
