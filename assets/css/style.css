@@ -26,6 +26,18 @@ h1, h2 {
 
 
 #logo {
+    display: inline-block;
+    float: left;
+    height: 100px;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+#logosmall {
+    display: none;
     float: left;
     height: 100px;
     width: auto;
@@ -231,19 +243,23 @@ hr {
 }
 
 .differences-container {
-    border: 3px solid #102F63;
     border-radius: 2vw;
+    margin-left: 8vw;
+    border: #f05a29 .1vw solid;
+
+}
+
+.differences-container:hover {
+    box-shadow: 10px 5px 5px #f05a29;
 
 }
 
 .differences-containers {
     display: flex;
-    width: 100%;
-    justify-content: center;
-    background-color: #f05a29;
     overflow: hidden;
     padding-top: .5vh;
     padding-bottom: .5vh;
+    
 
 }
 
@@ -253,26 +269,22 @@ hr {
     font-size: 2.5vw;
     text-align: center;
     float: left;
-    margin-right: 7vw;
-    margin-left: 7vw;
-    width: 35vw;
+    margin-left: 8vw;
     overflow: hidden;
+    width: 38vw;
 }
 
 #differences-amazon p {
     font-size: 2.5vw;
+
 }
 
 #differences-sendy {
     font-size: 2.5vw;
     float: left;
-    margin-right: 7vw;
-    margin-left: 7vw;
+    margin-left: 8vw;
     text-align: center;
-    width: 35vw;
-    border-radius: 2vw;
-    overflow: hidden;
-    
+    width: 38vw;
 }
 
 #differences-sendy p {
@@ -294,10 +306,12 @@ hr {
 
 .differences-section {
     border-bottom: #f05a29 3px solid;
+    padding-bottom: 2vw;
     border-top: #f05a29 3px solid;
     vertical-align: middle;
     clear: left;
 }
+
 
 #sendy-list {
 list-style-type: none;
@@ -548,6 +562,18 @@ input[type=text], select, textarea {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
+
+    #logo {
+        display: none;
+    }
+    
+    #logosmall {
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        object-fit: contain;
+    }
     #what-do-we-do {
         width: 65%;
         height: 1200px;
@@ -698,4 +724,60 @@ input[type=text], select, textarea {
         color: #1c74bc;
         margin-top: 10px;
     }
+
+    .differences-header {
+        font-size: 3vw;
+    }
+
+    .differences-containers {
+        display: inline-block;
+    
+    }
+    
+    #differences-sendy {
+        font-size: 4vw;
+        width: 70vw;
+        margin-left:15vw;
+        margin-top:1vh;
+
+    }
+
+    #differences-amazon {
+        font-size: 4vw;
+        width: 70vw;
+        margin-left:15vw;
+        
+    }
+
+    .our-brands-section {
+        border-bottom: yellow 3px solid;
+        border-top: yellow 3px solid;
+        display: inline;
+    }
+    
+    #our-brands-image {
+        overflow: hidden;
+        float: left;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-top: 2vh;
+        object-fit: fill;
+    }
+    
+    
+    #our-brands-text {
+    width:90vw;
+    margin-left: 5vw;
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    }
+
+    #our-brands-text > br {
+        display:none;
+}
+
+our-brands-button {
+    top: 5%;
+}
 }
