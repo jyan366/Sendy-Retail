@@ -241,7 +241,7 @@ hr {
 .differences-container {
     border-radius: 2vw;
     margin-left: 8vw;
-    border: #f05a29 .1vw dotted;
+    border: #f05a29 .1vw solid;
 
 }
 
@@ -255,7 +255,7 @@ hr {
     justify-content: space-evenly;
     overflow: hidden;
     padding-top: .5vh;
-    padding-bottom: .5vh;
+    padding-bottom: 5vh;
     
 
 }
@@ -311,8 +311,8 @@ hr {
 }
 
 .differences-section {
-    padding-top: 5vh;
-    padding-bottom: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 0;
     vertical-align: middle;
     clear: left;
 }
@@ -417,8 +417,8 @@ font-size: 2.5vw;
     font-size:2.5vw;
     background-color: #102F63;
     color: white;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
 }
 
 #photos {
@@ -446,6 +446,7 @@ font-size: 2.5vw;
     justify-content:space-evenly;
     flex-wrap: wrap;
     position: relative;
+    margin-bottom: 3vw;
 }
 
 .photo {
@@ -544,18 +545,19 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color :rgba(240, 90, 41, 0.8);
     color: white;
     padding: 12px 20px;
-    border: none;
+    border: rgba(240, 90, 41, 0.3) 2px solid;
     border-radius: 4px;
     cursor: pointer;
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color :rgba(240, 90, 41, 1);
+    border: rgba(240, 90, 41, 0.8) 2px solid;
   }
-  
+
   .container {
     border-radius: 5px;
     padding: 20px;
@@ -821,7 +823,7 @@ display: none;
 
 
     .differences-header h1 {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     .differences-containers {
@@ -843,7 +845,10 @@ display: none;
         margin-left:15vw;
         
     }
-
+    .differences-section {
+        padding-bottom: 0;
+    }
+    
     .our-brands-section {
         display: inline;
     }
@@ -885,14 +890,12 @@ display: none;
 }
 
 #contact-link-button {
-    border: 1.5px #f05a29 solid;
-    color:#102F63;
+    background-color :rgba(240, 90, 41, 0.8);
+    border: rgba(240, 90, 41, 0.3) 2px solid;
+    color:white;
     text-decoration: none;
     font-weight: bold;
     font-size: 4vw;
-}
-#contact-link-button:hover {
-margin-right: -2px;
 }
 .photo {
     text-align: center;
@@ -908,5 +911,13 @@ margin-right: -2px;
     height: 70vw;
     border: #f05a29 3px solid;
     margin: 8.5px 8.5px;
+}
+
+.footer-address p {
+    font-size:4.5vw;
+    background-color: #102F63;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 }
