@@ -135,8 +135,8 @@ h1, h2 {
 #pic2 {
     overflow: hidden;
     float: right;
-    height: 45%;
     width: 45%;
+    height: auto;
     object-fit: fill;
     margin-right: 20px;
     border: #f05a29 3px solid;
@@ -231,22 +231,32 @@ hr {
 }
 
 .differences-container {
-    border: 3px solid black;
-    display: flex;
-    justify-content: space-evenly;
+    border: 3px solid #102F63;
+    border-radius: 2vw;
+
 }
 
-.differences-container ol {
-    border: 3px solid black;
+.differences-containers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #f05a29;
+    overflow: hidden;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+
 }
+
+
 
 #differences-amazon {
     font-size: 2.5vw;
-    float: left;
     text-align: center;
-    width: 45vw;
-    list-style-type: circle;
-    background-color: wheat;
+    float: left;
+    margin-right: 7vw;
+    margin-left: 7vw;
+    width: 35vw;
+    overflow: hidden;
 }
 
 #differences-amazon p {
@@ -255,10 +265,13 @@ hr {
 
 #differences-sendy {
     font-size: 2.5vw;
-    float: right;
+    float: left;
+    margin-right: 7vw;
+    margin-left: 7vw;
     text-align: center;
-    width: 45vw;
-    list-style-type: circle;
+    width: 35vw;
+    border-radius: 2vw;
+    overflow: hidden;
     
 }
 
@@ -268,11 +281,12 @@ hr {
 
 .differences-header {
     text-align: center;
-    font-size: 200%;
-    margin-top: 25px;
+    font-size: 2.5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
-.differences-header > p {
+.differences-header p {
     text-align: center;
     font-style: italic;
     font-weight: lighter;
@@ -287,33 +301,41 @@ hr {
 
 #sendy-list {
 list-style-type: none;
+border-radius: 2vw;
+overflow: hidden;
+
+
 }
 
 #amazon-list {
     list-style-type: none;
+    border-radius: 2vw;
+    overflow: hidden;
 }
 
 .our-brands-section {
-    height: 600px;
     border-bottom: yellow 3px solid;
     border-top: yellow 3px solid;
     clear: both;
+    display: flex;
+    justify-content: space-between;
 }
 
 #our-brands-image {
-    background: url('../images/kingsjerky.jpeg') no-repeat 0 0;
-    height: 600px;
+    overflow: hidden;
     float: left;
-    width: 50vw;
-    text-align: center;
+    width: 45vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    object-fit: fill;
 }
+
 
 #our-brands-text {
 float: right;
 text-align: center;
-width:50vw;
-font-size: 200%;
-padding-top: 20vh;
+width:45vw;
+font-size: 2.5vw;
 }
 
 #our-brands-button {
