@@ -7,7 +7,7 @@
     border: none;
     background-color: rgb(255, 255, 255);
 }
-
+/* General Style Rules */
 #header {
     border-bottom: #f05a29 3px solid;
     height:120px
@@ -29,6 +29,7 @@ h1 {
     font-size: 3vw;
 }
 
+/* Header Style Rules */
 
 #logo {
     display: inline-block;
@@ -69,7 +70,6 @@ h1 {
     color: inherit;
 }
 
-
 #menu a:hover {
     border-bottom: 1.5px #f05a29 solid;
 }
@@ -78,7 +78,7 @@ h1 {
         border-bottom: #f05a29 1.5px solid;
 }
 
-
+/* Main Landing Style Rules */
 
 .main-landing {
     background-image: url(../images/pic6.jpg);
@@ -89,12 +89,9 @@ h1 {
     height: 80vh;
     overflow: hidden;
     border-bottom: #f05a29 3px double;
-    
-
 }
 
 #hero-pic {
-
     width: auto;
     zoom: 44%;
     position: relative;
@@ -102,7 +99,6 @@ h1 {
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
-
 
 #cover-text {
     color: white;
@@ -114,9 +110,8 @@ h1 {
     position: absolute;
     width: 100vw;
     text-align: center;
-
 }
-
+/* Who Are We Section Style Rules */
 
 .who-section {
     margin-bottom: 20px;
@@ -139,7 +134,6 @@ h1 {
     float: left;
     width: 45vw;
     text-align: center;
-
 }
 
 #who-we-are p {
@@ -147,10 +141,7 @@ h1 {
     margin-left: 1%;
     margin-right: 1%;
     font-weight:150;
-
-
 }
-
 
 #pic2 {
     overflow: hidden;
@@ -162,10 +153,11 @@ h1 {
     border: #f05a29 3px double;
 }
 
+/* What Do We Do Section Style Rules */
+
 #what-do-we-do {
     margin-bottom: 30px;
 }
-
 
 #services-left {
     padding-top: 30px;
@@ -189,7 +181,6 @@ hr {
     width: 100%;
     margin: 5px 0;
 }
-
 
 .services-left-heading {
     width: 85%;
@@ -222,7 +213,7 @@ hr {
     text-decoration: none;
 }
 
-/* Club ethos center image */
+/* Our Services center image */
 
 #services-header {
     margin: 20px 0;
@@ -265,9 +256,9 @@ hr {
     overflow: hidden;
     padding-top: .5vh;
     padding-bottom: 5vh;
-    
-
 }
+/* Differencs Section Style Rules */
+/* Not Equal Sign Style Rules */
 
 #not-equal {
     color: #f05a29;
@@ -277,7 +268,6 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #differences-amazon {
@@ -332,13 +322,10 @@ hr {
     border-radius: 2vw;
 }
 
-
 #sendy-list {
 list-style-type: none;
 border-radius: 2vw;
 overflow: hidden;
-
-
 }
 
 #amazon-list {
@@ -346,6 +333,8 @@ overflow: hidden;
     border-radius: 2vw;
     overflow: hidden;
 }
+
+/* Our Brands Section Style Rules */
 
 .our-brands-section {
     margin-top: 2vw;
@@ -363,7 +352,6 @@ overflow: hidden;
     margin-top: 2vh;
     object-fit: fill;
 }
-
 
 #our-brands-text {
 float: right;
@@ -387,6 +375,8 @@ font-size: 2.5vw;
     background-color :rgba(240, 90, 41, 1);
     border: rgba(240, 90, 41, 0.8) 2px solid;
 }
+
+/* Contact Us Home Page Style Rules */
 
 .contact-us-section {
     text-align: center;
@@ -419,6 +409,7 @@ font-size: 3vw;
     border: rgba(240, 90, 41, 0.8) 2px solid;
 }
 
+/* Footer Style Rules */
 
 .footer-address {
     clear: left;
@@ -452,6 +443,9 @@ font-size: 3vw;
     width: 100%;
 }
 
+/* Our Brands Page Style Rules */
+/* Our Brands Header Style Rules */
+
 #brands-header {
     text-align: center;
     font-size: 3vw;
@@ -462,6 +456,8 @@ font-size: 3vw;
     text-decoration: underline #f05a29 2.5px;
 
 }
+
+/* Our Brands Images Style Rules */
 
 .images {
     display:flex;
@@ -492,13 +488,16 @@ font-size: 3vw;
     height: 100%;
 }
 
+/* Contact Us Page Style Rules */
+
+/* Contact Form Style Rules */
+
 #contact-us-page {
     display: flex;
     justify-content: space-evenly;
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
 
 .contact-info {
     min-height: 600px;
@@ -513,48 +512,16 @@ font-size: 3vw;
     margin-bottom: 5px;
 }
 
-
-
 #contact-form {
     border: none;
     margin-bottom: 5px;
 }
-
-
-
-iframe {
-    width: 40vw;
-    height: 600px;
-}
-
-.gmap_canvas {
-    width: 40vw;
-    height: 600px;
-    overflow:hidden;
-    margin-bottom: 0;
-}
-
-#map-section {
-    text-align:center;
-    height:600px;
-    width:40vw;
-    border: 1.5px #f05a29 solid;
-    margin: 5px;
-}
-
-#map-section:hover {
-    border: 3px #f05a29 solid;
-    margin: 3.5px;
-
-}
-
 
 #contact-us-form {
     float: right;    
     height:600px;
     width: 40vw;
 }
-
 
 input[type=text], select, textarea {
     width: 100%;
@@ -588,262 +555,270 @@ input[type=text], select, textarea {
     margin: 5px;
 }
 
-
-
 .container:hover {
     border: 3px #f05a29 solid;
     margin: 3.5px;
-
 }
-
-
 
   #form {
       margin-bottom: 10px;
   }
 
 
+
+/* Google Map Style Rules */
+
+iframe {
+    width: 40vw;
+    height: 600px;
+}
+
+.gmap_canvas {
+    width: 40vw;
+    height: 600px;
+    overflow:hidden;
+    margin-bottom: 0;
+}
+
+#map-section {
+    text-align:center;
+    height:600px;
+    width:40vw;
+    border: 1.5px #f05a29 solid;
+    margin: 5px;
+}
+
+#map-section:hover {
+    border: 3px #f05a29 solid;
+    margin: 3.5px;
+
+}
+
   /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
 
-    #what-do-we-do {
-        width: 75%;
-        margin: 0 auto;
-    }
+#what-do-we-do {
+    width: 75%;
+    margin: 0 auto;
+}
 
-    #services-header {
-        padding: 30px 0;
-        margin-top: 0;
-    }
+#services-header {
+    padding: 30px 0;
+    margin-top: 0;
+}
 
-    #services-left, #services-right{
-        width:100%;
-        float:left;
-        padding: 0;
-    }
+#services-left, #services-right{
+    width:100%;
+    float:left;
+    padding: 0;
+}
 
-    #services-center{
-        clear: both;
-        width: 100%;
-        float: left;
-        margin-bottom: 5vh;
-    }
+#services-center{
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-bottom: 5vh;
+}
 
-    .differences-section h2 {
-        font-size: 3vw;
-    }
-
-
+.differences-section h2 {
+    font-size: 3vw;
+}
     
-    .differences-section h1 {
-        font-size: 4vw;
-    }
+.differences-section h1 {
+    font-size: 4vw;
+}
 
-
-
-    hr {
-        display: none;
-    }
+hr {
+    display: none;
+}
 }
 
 
 /* For 1050px wide and down */
 @media screen and (max-width: 1050px){
 
-    #logo {
-        display: none;
-    }
+#logo {
+    display: none;
+}
     
-    #logosmall {
-        display: inline-block;
-        margin-left: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        object-fit: contain;
-    }
+#logosmall {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
 
-    #contact-us-page {
-        display: flex;
-        flex-direction: column-reverse;
-        margin-top: 25px;
-        margin-bottom: 0;
-    }
+#contact-us-page {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
     
-    .gmap_canvas {
-        width: 100vw;
-        border:0;
-        margin:0;
-
-    }
+.gmap_canvas {
+    width: 100vw;
+    border:0;
+    margin:0;
+}
    
-    .container {
-        width: 80vw;
-        padding-left: 2.5vw;
-        padding-right:2.5vw;
-        margin-left: 7.5vw;
-        margin-bottom: 5vw;
-        border: .1vw #f05a29 solid;
-    }
+.container {
+    width: 80vw;
+    padding-left: 2.5vw;
+    padding-right:2.5vw;
+    margin-left: 7.5vw;
+    margin-bottom: 5vw;
+    border: .1vw #f05a29 solid;
+}
     
-    .container:hover {
-        padding-left: 2.5vw;
-        padding-right:2.5vw;
-        margin-left: 7.4vw;
-        margin-bottom: 5vw;
-        border: .2vw #f05a29 solid;
+.container:hover {
+    padding-left: 2.5vw;
+    padding-right:2.5vw;
+    margin-left: 7.4vw;
+    margin-bottom: 5vw;
+    border: .2vw #f05a29 solid;
+}
+ 
+#map-section {
+    width: 100vw;
+    border:0;
+    margin:0;
+}
     
-    
-    }
+iframe {
+    width: 100vw;
+    height: 600px;
+}
 
-   
-    
-    #map-section {
-        width: 100vw;
-        border:0;
-        margin:0;
-    }
-    
-    iframe {
-        width: 100vw;
-        height: 600px;
-    }
+#map-section:hover {
+    border:0;
+    margin:0;
+}
 
-    #map-section:hover {
-        border:0;
-        margin:0;
-    
-    }
+.contact-info {
+    width: 85vw;
+    text-align: center;
+}
 
-    .contact-info {
-        width: 85vw;
-        text-align: center;
-    }
+#contact-form {
+width: 100vw;
+border: none;
+margin-bottom: 5px;
+} 
 
-    #contact-form {
-        width: 100vw;
-        border: none;
-        margin-bottom: 5px;
-    }
-    
-    
 }
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
-    #logo {
-        margin-top: 10px;
-        object-fit: contain;
-    }
+#logo {
+    margin-top: 10px;
+    object-fit: contain;
+}
 
-    .header div {
-        height: 60px;
-        display: flex;
-        justify-content: space-evenly;
-        width: 100vw;
+.header div {
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
 
-    }
+#menu li {
+    letter-spacing: 0px;
+    font-size: 120%;
+    color: #1c74bc;
+    margin-left: 0px;   
+}
 
-    #menu li {
-        letter-spacing: 0px;
-        font-size: 120%;
-        color: #1c74bc;
-        margin-left: 0px;
-        
-    }
-    .who-section {
-        margin-top: 2vh;
-        height: auto;
-    }
+.who-section {
+    margin-top: 2vh;
+    height: auto;
+}
 
-    .who-section h2 {
-        margin-top: 2vh;
-        height: auto;
-        font-size: 5vw;
-    }
+.who-section h2 {
+    margin-top: 2vh;
+    height: auto;
+    font-size: 5vw;
+}
 
     
-    #who-section {
-        display: inline;
-        justify-content: space-evenly;
-        margin-top: 0;
-        margin-right:0px;
-    }
+#who-section {
+    display: inline;
+    justify-content: space-evenly;
+    margin-top: 0;
+    margin-right:0px;
+}
     
-    #who-we-are {
-        font-size: 5vw;
-        font-family: Lato, sans-serif;
-        margin-left: 5vw;
-        width: 90vw;
-        text-align: center;
-        vertical-align: middle;
-        margin-right:0px;
+#who-we-are {
+    font-size: 5vw;
+    font-family: Lato, sans-serif;
+    margin-left: 5vw;
+    width: 90vw;
+    text-align: center;
+    vertical-align: middle;
+    margin-right:0px;
+}
     
-    }
-    
-    #who-we-are p {
-        font-size: 4vw;
-        margin-left: 1%;
-        margin-right: 1%;
-        margin-bottom: 2vh;
-        font-weight:150;
-    
-    
-    }
+#who-we-are p {
+    font-size: 4vw;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2vh;
+    font-weight:150;
+}
     
     
-    #pic2 {
-        overflow: hidden;
-        width: 90vw;
-        float: left;
-        margin-left: 5vw;
-        height: auto;
-        object-fit: fill;
-        border: #f05a29 3px solid;
-        margin-right:0px;
-    }  
+#pic2 {
+    overflow: hidden;
+    width: 90vw;
+    float: left;
+    margin-left: 5vw;
+    height: auto;
+    object-fit: fill;
+    border: #f05a29 3px solid;
+    margin-right:0px;
+}  
 
-    #services {
-        width:90%;
-        margin: 0;
-    }
+#services {
+    width:90%;
+    margin: 0;
+}
 
-    #services-header {
-        font-size: 6vw;
-    }
+#services-header {
+    font-size: 6vw;
+}
 
-    .services-right-heading, .services-left-heading{
-        width: inherit;
-    }
+.services-right-heading, .services-left-heading{
+    width: inherit;
+}
 
-    .services-right-heading h2, .services-left-heading h2{
-        width: 100%;
-        text-align: center;
-    }
+.services-right-heading h2, .services-left-heading h2{
+    width: 100%;
+    text-align: center;
+}
 
-    .services-right-heading p, .services-left-heading p{
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
+.services-right-heading p, .services-left-heading p{
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
 
 
-    .photo {
-        text-align: center;
-        width: 40vw;
-        height: 35vw;
-        border:  #102F63 1.5px solid;
-        margin: 10px 10px 10px 10px;
-    }
+.photo {
+    text-align: center;
+    width: 40vw;
+    height: 35vw;
+    border:  #102F63 1.5px solid;
+    margin: 10px 10px 10px 10px;
+}
     
-    .photo:hover {
-        text-align: center;
-        width: 40vw;
-        height: 35vw;
-        border: #f05a29 3px solid;
-        margin: 8.5px 8.5px;
-    }
-
+.photo:hover {
+    text-align: center;
+    width: 40vw;
+    height: 35vw;
+    border: #f05a29 3px solid;
+    margin: 8.5px 8.5px;
+}
 }
 
 
@@ -852,98 +827,95 @@ input[type=text], select, textarea {
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 550px){
-    #logo {
-        margin-top: 10px;
-        object-fit: contain;
-    }
+#logo {
+    margin-top: 10px;
+    object-fit: contain;
+}
 
-    .header div {
-        height: 60px;
-        display: flex;
-        justify-content: space-evenly;
-        width: 100vw;
-    }
-
-
-    #menu li {
-        line-height: 30px;
-        letter-spacing: 2px;
-        width: 40vw;
-        font-size: 80%;
-        color: #1c74bc;
-        margin-top: 10px;
-    }
-
-    #menu {
-        text-align: right;
-        float: right;
-        display:flex;
-        flex-direction:column;
-    }
-
-    #menu li:first-child {
-        order: 3;
-      }
-    #menu li:nth-child(2) {
-        order: 2;
-      }
-    #menu li:nth-child(3) {
-        order: 1;
-      }
-
-    #not-equal {
-display: none;
-    }
+.header div {
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
 
 
-    .differences-header h1 {
-        font-size: 6vw;
-    }
+#menu li {
+    line-height: 30px;
+    letter-spacing: 2px;
+    width: 40vw;
+    font-size: 80%;
+    color: #1c74bc;
+    margin-top: 10px;
+}
 
-    .differences-section h2 {
-        font-size: 4vw;
-    }
+#menu {
+    text-align: right;
+    float: right;
+    display:flex;
+    flex-direction:column;
+}
+
+#menu li:first-child {
+    order: 3;
+}
+
+#menu li:nth-child(2) {
+    order: 2;
+}
+
+#menu li:nth-child(3) {
+    order: 1;
+}
+
+#not-equal {
+    display: none;
+}
 
 
+.differences-header h1 {
+    font-size: 6vw;
+}
 
-    .differences-containers {
-        display: inline-block;
+.differences-section h2 {
+    font-size: 4vw;
+}
+
+.differences-containers {
+    display: inline-block;
+ }
     
-    }
-    
-    #differences-sendy {
-        font-size: 4vw;
-        width: 70vw;
-        margin-left:15vw;
-        margin-top:1vh;
-
+#differences-sendy {
+    font-size: 4vw;
+    width: 70vw;
+    margin-left:15vw;
+    margin-top:1vh;
     }
 
-    #differences-amazon {
-        font-size: 4vw;
-        width: 70vw;
-        margin-left:15vw;
-        
-    }
-    .differences-section {
-        padding-bottom: 0;
-    }
+#differences-amazon {
+    font-size: 4vw;
+    width: 70vw;
+    margin-left:15vw;     
+}
+
+.differences-section {
+    padding-bottom: 0;
+}
     
-    .our-brands-section {
-        display: inline;
-    }
+.our-brands-section {
+    display: inline;
+}
     
-    #our-brands-image {
-        overflow: hidden;
-        float: left;
-        width: 90vw;
-        margin-left: 5vw;
-        margin-top: 2vh;
-        object-fit: fill;
-    }
+#our-brands-image {
+    overflow: hidden;
+    float: left;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    object-fit: fill;
+} 
     
-    
-    #our-brands-text {
+#our-brands-text {
     width:90vw;
     margin-left: 5vw;
     float: left;
@@ -951,14 +923,14 @@ display: none;
     margin-top: 3vw;
     margin-bottom: 3vw;
     text-align: center;
-    }
+}
 
-    #our-brands-text h1 {
-        font-size: 5vw;
-        }
+#our-brands-text h1 {
+    font-size: 5vw;
+}
 
-    #our-brands-text > br {
-        display:none;
+#our-brands-text > br {
+    display:none;
 }
 #contact-br {
     display: none;
@@ -985,6 +957,7 @@ display: none;
     font-weight: bold;
     font-size: 4vw;
 }
+
 .photo {
     text-align: center;
     width: 80vw;
@@ -1008,6 +981,7 @@ display: none;
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
+
 .services-left-heading h2 {
     font-size: 18px;
 }
@@ -1015,5 +989,4 @@ display: none;
 .services-right-heading h2 {
     font-size: 18px;
 }
-
 }
