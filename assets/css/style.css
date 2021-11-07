@@ -22,6 +22,11 @@ body {
 h1, h2 {
     color: #1c74bc;
     text-decoration: underline #f05a29 2.5px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3vw;
 }
 
 
@@ -116,6 +121,10 @@ h1, h2 {
 .who-section {
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.who-section h2 {
+    font-size: 3vw;
 }
 
 #who-section {
@@ -218,7 +227,7 @@ hr {
 #services-header {
     margin: 20px 0;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
 }
 
 #circle-container {
@@ -299,7 +308,7 @@ hr {
 
 .differences-header {
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
@@ -308,13 +317,18 @@ hr {
     text-align: center;
     font-style: italic;
     font-weight: lighter;
+    font-size: 2.5vw;
 }
 
 .differences-section {
     padding-top: 1vh;
     padding-bottom: 0;
     vertical-align: middle;
-    clear: left;
+    clear: both;
+}
+
+.differences-section h2 {
+    font-size: 2.5vw;
 }
 
 
@@ -381,6 +395,11 @@ font-size: 2.5vw;
     display: inline;
     padding-bottom: 3vw;
     clear: left;
+    padding-top: 5vw;
+}
+
+.contact-us-section h2 {
+font-size: 3vw;
 }
 
 #contact-link-button {
@@ -434,11 +453,13 @@ font-size: 2.5vw;
 
 #brands-header {
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
     text-decoration: none;
     margin-top: 10px;
     margin-bottom: 10px;
     font-style: italic;
+    text-decoration: underline #f05a29 2.5px;
+
 }
 
 .images {
@@ -609,7 +630,17 @@ input[type=text], select, textarea {
         margin-bottom: 5vh;
     }
 
+    .differences-section h2 {
+        font-size: 4vw;
+    }
+
+
     
+    .differences-section h1 {
+        font-size: 4vw;
+    }
+
+
 
     hr {
         display: none;
@@ -653,7 +684,20 @@ input[type=text], select, textarea {
         padding-right:2.5vw;
         margin-left: 7.5vw;
         margin-bottom: 5vw;
+        border: .1vw #f05a29 solid;
     }
+    
+    .container:hover {
+        padding-left: 2.5vw;
+        padding-right:2.5vw;
+        margin-left: 7.4vw;
+        margin-bottom: 5vw;
+        border: .2vw #f05a29 solid;
+    
+    
+    }
+
+   
     
     #map-section {
         width: 100vw;
@@ -684,10 +728,6 @@ input[type=text], select, textarea {
     }
     
     
-    
-    
-    
-    
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -716,6 +756,13 @@ input[type=text], select, textarea {
         margin-top: 2vh;
         height: auto;
     }
+
+    .who-section h2 {
+        margin-top: 2vh;
+        height: auto;
+        font-size: 5vw;
+    }
+
     
     #who-section {
         display: inline;
@@ -779,6 +826,8 @@ input[type=text], select, textarea {
         text-align: center;
         padding: 0 20px 0 20px;
     }
+
+
     .photo {
         text-align: center;
         width: 40vw;
@@ -794,6 +843,8 @@ input[type=text], select, textarea {
         border: #f05a29 3px solid;
         margin: 8.5px 8.5px;
     }
+
+
 
 }
 
@@ -817,9 +868,6 @@ input[type=text], select, textarea {
 
 
     #menu li {
-        text-align: right;
-        display: inline-block;
-        justify-content: start;
         line-height: 30px;
         letter-spacing: 2px;
         width: 40vw;
@@ -828,10 +876,27 @@ input[type=text], select, textarea {
         margin-top: 10px;
     }
 
+    #menu {
+        text-align: right;
+        float: right;
+        display:flex;
+        flex-direction:column;
+    }
+
+    #menu li:first-child {
+        order: 3;
+      }
+    #menu li:nth-child(2) {
+        order: 2;
+      }
+    #menu li:nth-child(3) {
+        order: 1;
+      }
 
     #not-equal {
 display: none;
     }
+
 
     .differences-header h1 {
         font-size: 6vw;
@@ -884,6 +949,10 @@ display: none;
     text-align: center;
     }
 
+    #our-brands-text h1 {
+        font-size: 5vw;
+        }
+
     #our-brands-text > br {
         display:none;
 }
@@ -898,6 +967,10 @@ display: none;
     font-size: 3vw;
     display: flex;
     justify-content: space-evenly;
+}
+
+.contact-us-section h2 {
+    font-size: 4vw;
 }
 
 #contact-link-button {
@@ -931,4 +1004,12 @@ display: none;
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
+.services-left-heading h2 {
+    font-size: 18px;
+}
+
+.services-right-heading h2 {
+    font-size: 18px;
+}
+
 }
