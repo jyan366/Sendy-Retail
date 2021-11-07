@@ -290,6 +290,7 @@ hr {
     text-align: center;
     width: 30vw;
     margin: 0;
+    overflow: hidden;
 }
 
 #differences-sendy p {
