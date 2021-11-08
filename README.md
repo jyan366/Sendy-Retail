@@ -48,30 +48,30 @@ Our method is different, and based off the beautiful prospect of exclusive deals
  ![Our Brands Section](/readme-images/ourbrands-section.jpeg)
  
 #### Contact Us Section
-o	This section allows for prospective clients to redirect to our “Contact Us” page. 
-o	The “Contact Us” button changes background colour opacity when hovered over. 
-o	This section is fully responsive, with elements sized based off viewport width and orientation changing to horizontal on mobile. 
+* This section allows for prospective clients to redirect to our “Contact Us” page. 
+* The “Contact Us” button changes background colour opacity when hovered over. 
+* This section is fully responsive, with elements sized based off viewport width and orientation changing to horizontal on mobile. 
 
  ![Contact Us Section](/readme-images/contactus-section.jpeg)
 
 #### Footer
-o	The Footer provide the user with further information on our business, as well as direct contact information.
-o	Font Awesome icons are used here to make this section visually appealing. 
-o	The Footer is consistent across all three pages. 
+* The Footer provide the user with further information on our business, as well as direct contact information.
+* Font Awesome icons are used here to make this section visually appealing. 
+* The Footer is consistent across all three pages. 
   ![Footer](/readme-images/footer.jpeg)
 
 #### Our Brands Page
-o	This page serves as social proof for our business, showing the nine brands we currently work with. 
-o	Upon hovering a pointer appears, as well as an orange border, encouraging the user to click the images. Each image opens a link to the website of each brand. 
-o	The images are displayed in columns of three, two and one on different screen sizes.
+* This page serves as social proof for our business, showing the nine brands we currently work with. 
+* Upon hovering a pointer appears, as well as an orange border, encouraging the user to click the images. Each image opens a link to the website of each brand. 
+* The images are displayed in columns of three, two and one on different screen sizes.
  
  ![Our Brands Page](/readme-images/ourbrands-page.jpeg)
 
 #### Contact Us Page
-o	This page provides the user with an interactive map of our warehouse, as well as a Contact Form.
-o	This page is fully interactive, giving the user the experience of interacting with our site. 
-o	The Contact Form has four fields; Name, Email, Subject and Message.
-o	Each text field has a placeholder and the subject field has a dropdown menu with options. Upon submitting, the form opens an email in a new tab. In the future this form will send an email without need for redirection. 
+* This page provides the user with an interactive map of our warehouse, as well as a Contact Form.
+* This page is fully interactive, giving the user the experience of interacting with our site. 
+* The Contact Form has four fields; Name, Email, Subject and Message.
+* Each text field has a placeholder and the subject field has a dropdown menu with options. Upon submitting, the form opens an email in a new tab. In the future this form will send an email without need for redirection. 
  
  ![Contact Us Page](/readme-images/contactus-page.jpeg)
 
