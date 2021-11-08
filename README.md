@@ -98,9 +98,9 @@ Sendy Retail was thoroughly tested in terms of validation, responsiveness and UX
 
 #### Validator Testing
 * 	HTML
-* *  No errors were returned when passing through the official W3C validator
+  *  No errors were returned when passing through the official W3C validator
 * 	CSS
-* *  No errors were found when passing through the official (Jigsaw) validator
+  *  No errors were found when passing through the official (Jigsaw) validator
 
 #### Responsiveness Testing
 * The responsive design tests were carried out using Google Chrome DevTools and Responsive Design Checker.
@@ -114,6 +114,8 @@ The site was also tested using Google Lighthouse in Chrome Developer Tools to te
 * 	The sites images were compressed and updated in order to increase Performance scores.
 * 	Overall, after compression of media files, the website performs very well on both desktop and mobile.
  
+ ![Lighthouse](/readme-images/lighthouse.jpeg)
+
 #### Peer review (Social Testing)
 
 Upon completion of this project, I sent the deployed link to my peers and business partner. My business partner advised that I make all headings uppercase and fix some sizing issues on the home page – these changes are reflected in the final deployed website. Overall the feedback was very positive on this front – I asked my peers to point out any issues, and none were found within the scope of this project.
@@ -121,7 +123,8 @@ Upon completion of this project, I sent the deployed link to my peers and busine
 #### Fixed Bugs
 
 On small screen sizes, my navigation bar list order was incorrect. I attempted use column-reverse, translate, float-left, direction:rtl and many other methods to fix this, however none of these worked. I reached out to peers within the slack chat for this. Robert Kennedy was kind enough to come up with an idea to fix this, whereby I targeted the list item children individually and reversed their order with this method. I used a variation of this in my code in order to resolve the issue. I am thankful for this input, and armed with this knowledge I will be able to solve any similar future issues.
- 
+
+  ![Slach Chat](/readme-images/slack.png)
 
 ## Deployment
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
