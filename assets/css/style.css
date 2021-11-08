@@ -21,8 +21,8 @@ body {
 
 h1, h2 {
     color: #1c74bc;
-    text-decoration: underline #f05a29 2.5px;
-    -webkit-text-decoration: underline #f05a29 2.5px;
+    text-decoration: underline #f05a29 2.5px !important;
+    -webkit-text-decoration: underline #f05a29 2.5px !important;
     text-transform: uppercase;
     font-family: Oswald;
     font-weight: 100;
@@ -456,7 +456,6 @@ font-size: 3vw;
 #brands-header {
     text-align: center;
     font-size: 3vw;
-    text-decoration: none;
     margin-top: 10px;
     margin-bottom: 10px;
     font-style: italic;
