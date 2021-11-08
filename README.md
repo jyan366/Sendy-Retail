@@ -4,7 +4,7 @@ In July of 2020, myself and my business partner embarked on our new venture – 
 Our method is different, and based off the beautiful prospect of exclusive deals. The majority of brands listings on Amazon were made years ago carelessly, with no updates since. We reach out to brands directly, we build relationships with these brands, we do the work needed on their listings, we boost their sales, and we give ourselves a chance at obtaining an exclusive deal – The crème de la crème – the exclusive rights to sell this brand on Amazon. This method may be less lucrative on the short term, however a single exclusive deal creates exit value for our business that cannot be matched by any number of distributors accounts. This website (which will soon be under www.sendyretail.com) is targeted towards these prospective brands, it gives an overview of our company while handling typical objections that we hear. This website gives us the opportunity to have brands come directly to us, rather than requiring us to find these brands ourselves. In the future, we hope this website will have a testimonials sections, as well as more interactive elements (Navbar, Potential Sales Increase Calculator) once I complete the JavaScript module with Code Institute. 
 
 
- ![Responsiveness Image](/readme-images/sendyresponsiveness.jpeg)
+ ![Responsiveness Image](/readme-images/sendyresponsive.jpeg)
 
 ## Features
 ### Existing Features
