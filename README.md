@@ -76,20 +76,20 @@ Our method is different, and based off the beautiful prospect of exclusive deals
  ![Contact Us Page](/readme-images/contactus-page.jpeg)
 
 ### Features Left to Implement
-•	Testimonials section: In the coming months, we hope to ask the brands we are working with for a small testimonial to be included on the home page. This will serve as social proof. 
-•	Timeline section: Once we have a more confident understanding of the length of time needed to complete our services, we would love to include a timeline section. This would help to both manage expectations and form a social contract. 
-•	Collapsing Navbar with bars icon: Attempting to do this with just HTML and CSS was heart breaking. My attempt to create a pseudo-interactive navbar in the form of a div with position (-100%) that appeared upon clicking a button (in the form of a nav icon) resulted in 8 hours of coding to no avail. I am genuinely excited to be able to alleviate this frustration and create this navbar using JavaScript. 
+* **Testimonials section:** In the coming months, we hope to ask the brands we are working with for a small testimonial to be included on the home page. This will serve as social proof. 
+* **Timeline section:** Once we have a more confident understanding of the length of time needed to complete our services, we would love to include a timeline section. This would help to both manage expectations and form a social contract. 
+* **Collapsing Navbar with bars icon:** Attempting to do this with just HTML and CSS was heart breaking. My attempt to create a pseudo-interactive navbar in the form of a div with position (-100%) that appeared upon clicking a button (in the form of a nav icon) resulted in 8 hours of coding to no avail. I am genuinely excited to be able to alleviate this frustration and create this navbar using JavaScript. 
 
 ## Design Choices
 
 #### Colour Scheme
-•	Our Colour Scheme for the website was based off our initial logo colours. The colours are blue and orange terracotta. 
-•	These colours were inspired by the chart below, which can be found here: https://www.fabmood.com/blue-and-orange-color-scheme/.
-•	Our main colour for the website is blue, with all accents orange. 
+* 	Our Colour Scheme for the website was based off our initial logo colours. The colours are blue and orange terracotta. 
+* 	These colours were inspired by the chart below, which can be found here: https://www.fabmood.com/blue-and-orange-color-scheme/.
+* 	Our main colour for the website is blue, with all accents orange. 
  
 #### Typography
-•	I used the pairing of Oswald and Lato for this website, with Oswald being used for headings and Lato for the remainder of the website. 
-•	I find this font combination to be sleek and professional, perfect for our B2B website.
+* 	I used the pairing of Oswald and Lato for this website, with Oswald being used for headings and Lato for the remainder of the website. 
+* 	I find this font combination to be sleek and professional, perfect for our B2B website.
 
 
 
@@ -97,22 +97,22 @@ Our method is different, and based off the beautiful prospect of exclusive deals
 Sendy Retail was thoroughly tested in terms of validation, responsiveness and UX through the use of Lighthouse and Peer Reviews. I am satisfied with the results of this testing and believe that Sendy Retail is ready to be pushed to a live audience.
 
 #### Validator Testing
-•	HTML
-* No errors were returned when passing through the official W3C validator
-•	CSS
-* No errors were found when passing through the official (Jigsaw) validator
+* 	HTML
+* *  No errors were returned when passing through the official W3C validator
+* 	CSS
+* *  No errors were found when passing through the official (Jigsaw) validator
 
 #### Responsiveness Testing
-•	The responsive design tests were carried out using Google Chrome DevTools and Responsive Design Checker.
-•	Each page responds as expected on a variety of screen sizes, from 24” Desktop to iPhone 6.
-•	Overall I am completely satisfied with the responsiveness of Sendy Retail.
+* The responsive design tests were carried out using Google Chrome DevTools and Responsive Design Checker.
+* Each page responds as expected on a variety of screen sizes, from 24” Desktop to iPhone 6.
+* Overall I am completely satisfied with the responsiveness of Sendy Retail.
 
 #### Lighthouse
 The site was also tested using Google Lighthouse in Chrome Developer Tools to test each of the pages for:
-•	The site was tested for Performance , Accessibility, Best Practices and SEO. 
-•	The site was tested on an incognito window to increase accuracy of these tests.
-•	The sites images were compressed and updated in order to increase Performance scores.
-•	Overall, after compression of media files, the website performs very well on both desktop and mobile.
+* 	The site was tested for Performance , Accessibility, Best Practices and SEO. 
+* 	The site was tested on an incognito window to increase accuracy of these tests.
+* 	The sites images were compressed and updated in order to increase Performance scores.
+* 	Overall, after compression of media files, the website performs very well on both desktop and mobile.
  
 #### Peer review (Social Testing)
 
@@ -133,14 +133,14 @@ The live link can be found here - https://jyan366.github.io/Sendy-Retail/our-bra
 ## Credits
 
 #### Content
-•	The font came from Google Fonts.
-•	The map is embedded from Google Maps.
-•	The colour palate was inspired by FabMood.
-•	The icons came from Font Awesome.
-•	The “What do we do” section was inspired by the club ethos section of Love Running, however the finished product is different. 
-•	All brands mentioned are real clients of Sendy Retail.
+* 	The font came from Google Fonts.
+* 	The map is embedded from Google Maps.
+* 	The colour palate was inspired by FabMood.
+* 	The icons came from Font Awesome.
+* 	The “What do we do” section was inspired by the club ethos section of Love Running, however the finished product is different. 
+* 	All brands mentioned are real clients of Sendy Retail.
 
 #### Media
-•	The photos used on this website were taken from Canva, as well as google images for brand logos. All brands mentioned are clients of Sendy Retail.
-•	Our logo was designed on Fiverr, by a best seller named shailene_george. When I told him that I needed a wider variation of the logo made for the website he created this quickly and free of charge. 
+* 	The photos used on this website were taken from Canva, as well as google images for brand logos. All brands mentioned are clients of Sendy Retail.
+* 	Our logo was designed on Fiverr, by a best seller named shailene_george. When I told him that I needed a wider variation of the logo made for the website he created this quickly and free of charge. 
 
