@@ -412,25 +412,6 @@ font-size: 3vw;
 
 /* Footer Style Rules */
 
-.footer-address {
-    clear: left;
-    text-align: center;
-    background-color: #f05a29;
-
-}
-
-.footer-address > li {
-    display: inline;
-
-}
-
-.footer-address p {
-    font-size:2.5vw;
-    background-color: #102F63;
-    color: white;
-    text-align: left;
-    width: 30vw;
-}
 
 
 .footer-contact > li {
@@ -624,8 +605,12 @@ iframe {
 @media screen and (max-width: 1200px){
 
 #what-do-we-do {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
+    margin-bottom: 36px;
+}
+#what-do-we-do p {
+    font-size: 120%;
 }
 
 #services-header {
