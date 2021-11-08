@@ -1,7 +1,7 @@
 # Sendy Retail
-In July of 2020, myself and my business partner embarked on our new venture – Sendy Retail. While this business started out by utilising arbitrage to make profit, we quickly spotted a gap in the market for our business to take advantage of. Wholesale on Amazon is a method whereby the seller sources products in bulk, usually from a distributor, and sells on listing where they can make a profit. The beauty of this method is its simplicity, once an account is secured, the seller simply has to piggyback on listings, sharing sales with other sellers. This method allows for volume, however provides no real exit value – A prospective buyer could simply ask to see the accounts held by the seller as part of due diligence, and then go and contact these distributors themselves.
+In July of 2020, myself and my business partner embarked on our new venture – Sendy Retail. While this business started out by utilising arbitrage to make profit, we quickly spotted a gap in the market for our business to take advantage of. Wholesale on Amazon is a method whereby the seller sources products in bulk, usually from a distributor, and sells on listing where they can make a profit. The beauty of this method is its simplicity, once an account is secured, the seller simply has to piggyback on listings, **sharing** sales with other sellers. This method allows for **volume**, however provides **no real exit value** – A prospective buyer could simply ask to see the accounts held by the seller as part of due diligence, and then go and contact these distributors themselves.
 
-Our method is different, and based off the beautiful prospect of exclusive deals. The majority of brands listings on Amazon were made years ago carelessly, with no updates since. We reach out to brands directly, we build relationships with these brands, we do the work needed on their listings, we boost their sales, and we give ourselves a chance at obtaining an exclusive deal – The crème de la crème – the exclusive rights to sell this brand on Amazon. This method may be less lucrative on the short term, however a single exclusive deal creates exit value for our business that cannot be matched by any number of distributors accounts. This website (which will soon be under www.sendyretail.com) is targeted towards these prospective brands, it gives an overview of our company while handling typical objections that we hear. This website gives us the opportunity to have brands come directly to us, rather than requiring us to find these brands ourselves. In the future, we hope this website will have a testimonials sections, as well as more interactive elements (Navbar, Potential Sales Increase Calculator) once I complete the JavaScript module with Code Institute. 
+Our method is different, and based off the beautiful prospect of exclusive deals. The majority of brands listings on Amazon were made years ago carelessly, with no updates since. We reach out to brands directly, we build **relationships** with these brands, we do the work needed on their listings, we **boost** their sales, and we give ourselves a chance at obtaining an exclusive deal – The crème de la crème – the exclusive rights to sell this brand on Amazon. This method may be less lucrative on the short term, however a single exclusive deal **creates exit value** for our business that cannot be matched by any number of distributors accounts. This website (which will soon be under www.sendyretail.com) is targeted towards these prospective brands, it gives an overview of our company while handling typical objections that we hear. This website gives us the opportunity to have brands come directly to us, rather than requiring us to find these brands ourselves. In the future, we hope this website will have a testimonials sections, as well as more interactive elements (Navbar, Potential Sales Increase Calculator) once I complete the JavaScript module with Code Institute. 
 
 
  ![Responsiveness Image](/readme-images/sendyresponsive.jpeg)
@@ -98,9 +98,9 @@ Sendy Retail was thoroughly tested in terms of validation, responsiveness and UX
 
 #### Validator Testing
 •	HTML
-* •	No errors were returned when passing through the official W3C validator
+* No errors were returned when passing through the official W3C validator
 •	CSS
-* •	No errors were found when passing through the official (Jigsaw) validator
+* No errors were found when passing through the official (Jigsaw) validator
 
 #### Responsiveness Testing
 •	The responsive design tests were carried out using Google Chrome DevTools and Responsive Design Checker.
@@ -124,13 +124,11 @@ On small screen sizes, my navigation bar list order was incorrect. I attempted u
  
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-•	The site was deployed to GitHub pages. The steps to deploy are as follows:
-* •	In the GitHub repository, navigate to the Settings tab
-* •	From the source section drop-down menu, select the Master Branch
-* •	Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://jyan366.github.io/Sendy-Retail/our-brands.html
 
 ## Credits
 
