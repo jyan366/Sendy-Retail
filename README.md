@@ -11,53 +11,70 @@ Our method is different, and based off the beautiful prospect of exclusive deals
 #### Navigation Bar
 * Our Navigation Bar remains consistent across all three pages. It features links to each page and removes the necessity for users to click the “back” button
 * Our Logo is also responsive, with a wide desktop version and a shorter mobile version. Our standard logo is now displayed on our mobile site, with this new custom version recently being created for our desktop site. 
- 
- 
+
+  ![Sendy Retail Logo Wide](/readme-images/navbarwide.jpeg)
+  ![Sendy Retail Logo Short](/readme-images/navbarshort.jpeg)
+
 #### Landing page
 * The goal of our landing page is to capture the users attention, while giving a professional feel.
 * The brands that we have historically worked with have performed well in retail stores, and are misrepresented on Amazon. Our catchphrase “Helping Great Brands Become Greater” encourages a positive UX from the offset.
+
+ ![Main Landing Sendy](/readme-images/mainlanding.jpeg)
  
 #### Who Are We Section
 * This section gives a brief overview of our company, while also portraying the necessity for businesses to take control of their Amazon sales.
 * The image used matches the colour scheme of the website, while encapsulating the meticulous work done by our preparation team. 
 * This section is fully responsive, with display changing to vertical on smaller screen sizes.
  
+ ![Who Are We Section](/readme-images/whoarewe-section.jpeg)
+
 #### What Do We Do Section
 * This section gives the user an insight in to the four stages of work we do. These four stages encapsulate all potential areas of demand from prospective future clients. We tackle pain points while also encouraging a positive emotional response from the user.
 * This section is fully responsive, with display changing on medium screens and small screens.
  
+ ![What Do We Do Section](/readme-images/whatwedo-section.jpeg)
+
 #### Differences Section
 * This section handles our most common objections when working with brands. We recognise the pain points brands typically have when working with Amazon sellers, while ensuring them that we work differently.
 * This section is fully responsive, with the middle figure changing to “display:hidden;” on small screen sizes and the orientation of the elements switching to vertical.
+
+ ![Differences Section](/readme-images/differences-section.jpeg)
 
 #### Our Brands Section
 * This section works on creating trust for our business, with a bold image and link to the “Our Brands” page. The image used fits in with the colours of our theme. 
 * The “Our Brands” button changes background colour opacity when hovered over. 
 * This section is fully responsive, with the orientation of elements switching to vertical on smaller screens sizes.
 
+ ![Our Brands Section](/readme-images/ourbrands-section.jpeg)
  
 #### Contact Us Section
 o	This section allows for prospective clients to redirect to our “Contact Us” page. 
 o	The “Contact Us” button changes background colour opacity when hovered over. 
 o	This section is fully responsive, with elements sized based off viewport width and orientation changing to horizontal on mobile. 
 
+ ![Contact Us Section](/readme-images/contactus-section.jpeg)
 
 #### Footer
 o	The Footer provide the user with further information on our business, as well as direct contact information.
 o	Font Awesome icons are used here to make this section visually appealing. 
 o	The Footer is consistent across all three pages. 
- 
+  ![Footer](/readme-images/footer.jpeg)
+
 #### Our Brands Page
 o	This page serves as social proof for our business, showing the nine brands we currently work with. 
 o	Upon hovering a pointer appears, as well as an orange border, encouraging the user to click the images. Each image opens a link to the website of each brand. 
 o	The images are displayed in columns of three, two and one on different screen sizes.
  
+ ![Our Brands Page](/readme-images/ourbrands-page.jpeg)
+
 #### Contact Us Page
 o	This page provides the user with an interactive map of our warehouse, as well as a Contact Form.
 o	This page is fully interactive, giving the user the experience of interacting with our site. 
 o	The Contact Form has four fields; Name, Email, Subject and Message.
 o	Each text field has a placeholder and the subject field has a dropdown menu with options. Upon submitting, the form opens an email in a new tab. In the future this form will send an email without need for redirection. 
  
+ ![Contact Us Page](/readme-images/contactus-page.jpeg)
+
 ### Features Left to Implement
 •	Testimonials section: In the coming months, we hope to ask the brands we are working with for a small testimonial to be included on the home page. This will serve as social proof. 
 •	Timeline section: Once we have a more confident understanding of the length of time needed to complete our services, we would love to include a timeline section. This would help to both manage expectations and form a social contract. 
