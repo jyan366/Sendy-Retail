@@ -1,108 +1,127 @@
-ytho![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Sendy Retail
+In July of 2020, myself and my business partner embarked on our new venture – Sendy Retail. While this business started out by utilising arbitrage to make profit, we quickly spotted a gap in the market for our business to take advantage of. Wholesale on Amazon is a method whereby the seller sources products in bulk, usually from a distributor, and sells on listing where they can make a profit. The beauty of this method is its simplicity, once an account is secured, the seller simply has to piggyback on listings, sharing sales with other sellers. This method allows for volume, however provides no real exit value – A prospective buyer could simply ask to see the accounts held by the seller as part of due diligence, and then go and contact these distributors themselves.
 
-Welcome jyan366,
+Our method is different, and based off the beautiful prospect of exclusive deals. The majority of brands listings on Amazon were made years ago carelessly, with no updates since. We reach out to brands directly, we build relationships with these brands, we do the work needed on their listings, we boost their sales, and we give ourselves a chance at obtaining an exclusive deal – The crème de la crème – the exclusive rights to sell this brand on Amazon. This method may be less lucrative on the short term, however a single exclusive deal creates exit value for our business that cannot be matched by any number of distributors accounts. This website (which will soon be under www.sendyretail.com) is targeted towards these prospective brands, it gives an overview of our company while handling typical objections that we hear. This website gives us the opportunity to have brands come directly to us, rather than requiring us to find these brands ourselves. In the future, we hope this website will have a testimonials sections, as well as more interactive elements (Navbar, Potential Sales Increase Calculator) once I complete the JavaScript module with Code Institute. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+ 
 
-## Gitpod Reminders
+Features
+Existing Features
+•	Navigation Bar
+o	Our Navigation Bar remains consistent across all three pages. It features links to each page and removes the necessity for users to click the “back” button
+o	Our Logo is also responsive, with a wide desktop version and a shorter mobile version. Our standard logo is now displayed on our mobile site, with this new custom version recently being created for our desktop site. 
+ 
+ 
+•	Landing page
+o	The goal of our landing page is to capture the users attention, while giving a professional feel.
+o	The brands that we have historically worked with have performed well in retail stores, and are misrepresented on Amazon. Our catchphrase “Helping Great Brands Become Greater” encourages a positive UX from the offset.
+ 
+•	Who Are We Section
+o	This section gives a brief overview of our company, while also portraying the necessity for businesses to take control of their Amazon sales.
+o	The image used matches the colour scheme of the website, while encapsulating the meticulous work done by our preparation team. 
+o	This section is fully responsive, with display changing to vertical on smaller screen sizes.
+ 
+•	What Do We Do Section
+o	This section gives the user an insight in to the four stages of work we do. These four stages encapsulate all potential areas of demand from prospective future clients. We tackle pain points while also encouraging a positive emotional response from the user.
+o	This section is fully responsive, with display changing on medium screens and small screens.
+ 
+•	Differences Section
+o	This section handles our most common objections when working with brands. We recognise the pain points brands typically have when working with Amazon sellers, while ensuring them that we work differently.
+o	This section is fully responsive, with the middle figure changing to “display:hidden;” on small screen sizes and the orientation of the elements switching to vertical.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+ 
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+•	Our Brands Section
+o	This section works on creating trust for our business, with a bold image and link to the “Our Brands” page. The image used fits in with the colours of our theme. 
+o	The “Our Brands” button changes background colour opacity when hovered over. 
+o	This section is fully responsive, with the orientation of elements switching to vertical on smaller screens sizes.
 
-Another blue button should appear to click: _Open Browser_.
+ 
+•	Contact Us Section
+o	This section allows for prospective clients to redirect to our “Contact Us” page. 
+o	The “Contact Us” button changes background colour opacity when hovered over. 
+o	This section is fully responsive, with elements sized based off viewport width and orientation changing to horizontal on mobile. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+ 
+•	Footer
+o	The Footer provide the user with further information on our business, as well as direct contact information.
+o	Font Awesome icons are used here to make this section visually appealing. 
+o	The Footer is consistent across all three pages. 
+ 
+•	Our Brands Page
+o	This page serves as social proof for our business, showing the nine brands we currently work with. 
+o	Upon hovering a pointer appears, as well as an orange border, encouraging the user to click the images. Each image opens a link to the website of each brand. 
+o	The images are displayed in columns of three, two and one on different screen sizes.
+ 
+•	Contact Us Page
+o	This page provides the user with an interactive map of our warehouse, as well as a Contact Form.
+o	This page is fully interactive, giving the user the experience of interacting with our site. 
+o	The Contact Form has four fields; Name, Email, Subject and Message.
+o	Each text field has a placeholder and the subject field has a dropdown menu with options. Upon submitting, the form opens an email in a new tab. In the future this form will send an email without need for redirection. 
+ 
+Features Left to Implement
+•	Testimonials section: In the coming months, we hope to ask the brands we are working with for a small testimonial to be included on the home page. This will serve as social proof. 
+•	Timeline section: Once we have a more confident understanding of the length of time needed to complete our services, we would love to include a timeline section. This would help to both manage expectations and form a social contract. 
+•	Collapsing Navbar with bars icon: Attempting to do this with just HTML and CSS was heart breaking. My attempt to create a pseudo-interactive navbar in the form of a div with position (-100%) that appeared upon clicking a button (in the form of a nav icon) resulted in 8 hours of coding to no avail. I am genuinely excited to be able to alleviate this frustration and create this navbar using JavaScript. 
+Design Choices
+•	Colour Scheme
+o	Our Colour Scheme for the website was based off our initial logo colours. The colours are blue and orange terracotta. 
+o	These colours were inspired by the chart below, which can be found here: https://www.fabmood.com/blue-and-orange-color-scheme/.
+o	Our main colour for the website is blue, with all accents orange. 
+ 
+•	Typography
+o	I used the pairing of Oswald and Lato for this website, with Oswald being used for headings and Lato for the remainder of the website. 
+o	I find this font combination to be sleek and professional, perfect for our B2B website.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+Testing
+Sendy Retail was thoroughly tested in terms of validation, responsiveness and UX through the use of Lighthouse and Peer Reviews. I am satisfied with the results of this testing and believe that Sendy Retail is ready to be pushed to a live audience.
+Validator Testing
+•	HTML
+o	No errors were returned when passing through the official W3C validator
+•	CSS
+o	No errors were found when passing through the official (Jigsaw) validator
+Responsiveness Testing
+•	The responsive design tests were carried out using Google Chrome DevTools and Responsive Design Checker.
+•	Each page responds as expected on a variety of screen sizes, from 24” Desktop to iPhone 6.
+•	Overall I am completely satisfied with the responsiveness of Sendy Retail.
+Lighthouse
+The site was also tested using Google Lighthouse in Chrome Developer Tools to test each of the pages for:
+•	The site was tested for Performance , Accessibility, Best Practices and SEO. 
+•	The site was tested on an incognito window to increase accuracy of these tests.
+•	The sites images were compressed and updated in order to increase Performance scores.
+•	Overall, after compression of media files, the website performs very well on both desktop and mobile.
+ 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Peer review (Social Testing)
+Upon completion of this project, I sent the deployed link to my peers and business partner. My business partner advised that I make all headings uppercase and fix some sizing issues on the home page – these changes are reflected in the final deployed website. Overall the feedback was very positive on this front – I asked my peers to point out any issues, and none were found within the scope of this project.
+Fixed Bugs
+On small screen sizes, my navigation bar list order was incorrect. I attempted use column-reverse, translate, float-left, direction:rtl and many other methods to fix this, however none of these worked. I reached out to peers within the slack chat for this. Robert Kennedy was kind enough to come up with an idea to fix this, whereby I targeted the list item children individually and reversed their order with this method. I used a variation of this in my code in order to resolve the issue. I am thankful for this input, and armed with this knowledge I will be able to solve any similar future issues.
+ 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Deployment
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+•	The site was deployed to GitHub pages. The steps to deploy are as follows:
+o	In the GitHub repository, navigate to the Settings tab
+o	From the source section drop-down menu, select the Master Branch
+o	Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+Credits
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+You can break the credits section up into Content and Media, depending on what you have included in your project.
+Content
+•	The font came from Google Fonts.
+•	The map is embedded from Google Maps.
+•	The colour palate was inspired by FabMood.
+•	The icons came from Font Awesome.
+•	The “What do we do” section was inspired by the club ethos section of Love Running, however the finished product is different. 
+•	All brands mentioned are real clients of Sendy Retail.
 
-------
+Media
+•	The photos used on this website were taken from Canva, as well as google images for brand logos. All brands mentioned are clients of Sendy Retail.
+•	Our logo was designed on Fiverr, by a best seller named shailene_george. When I told him that I needed a wider variation of the logo made for the website he created this quickly and free of charge. 
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
