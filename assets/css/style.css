@@ -416,7 +416,6 @@ font-size: 3vw;
     clear: left;
     text-align: center;
     background-color: #f05a29;
-    border-top: #f05a29 3px solid;
 
 }
 
@@ -429,10 +428,34 @@ font-size: 3vw;
     font-size:2.5vw;
     background-color: #102F63;
     color: white;
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
+    text-align: left;
+    width: 30vw;
 }
 
+
+.footer-contact > li {
+    display: inline;
+
+}
+
+.footer-contact p {
+    font-size:2.9vw;
+    background-color: #102F63;
+    color: white;
+    text-align: right;
+    width: 97vw;
+    border-right: 1.5vw #102F63 solid;
+    padding-bottom: 1vw;
+}
+
+#footer-full {
+    clear: both;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #102F63;
+    border-top: #f05a29 3px solid;
+    padding-top: 1vw;
+}
 #photos {
     clear: both;
     line-height: 0;
@@ -975,12 +998,12 @@ margin-bottom: 5px;
     margin: 8.5px 8.5px;
 }
 
-.footer-address p {
+.footer-contact p {
     font-size:4.5vw;
     background-color: #102F63;
     color: white;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: .1vh;
+    padding-bottom: .1vh;
 }
 
 .services-left-heading h2 {
