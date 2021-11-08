@@ -4,7 +4,7 @@ In July of 2020, myself and my business partner embarked on our new venture – 
 Our method is different, and based off the beautiful prospect of exclusive deals. The majority of brands listings on Amazon were made years ago carelessly, with no updates since. We reach out to brands directly, we build relationships with these brands, we do the work needed on their listings, we boost their sales, and we give ourselves a chance at obtaining an exclusive deal – The crème de la crème – the exclusive rights to sell this brand on Amazon. This method may be less lucrative on the short term, however a single exclusive deal creates exit value for our business that cannot be matched by any number of distributors accounts. This website (which will soon be under www.sendyretail.com) is targeted towards these prospective brands, it gives an overview of our company while handling typical objections that we hear. This website gives us the opportunity to have brands come directly to us, rather than requiring us to find these brands ourselves. In the future, we hope this website will have a testimonials sections, as well as more interactive elements (Navbar, Potential Sales Increase Calculator) once I complete the JavaScript module with Code Institute. 
 
 
- 
+ ![Responsiveness Image](/readme-images/sendyresponsiveness.jpeg)
 
 ## Features
 ### Existing Features
@@ -58,7 +58,7 @@ o	This page is fully interactive, giving the user the experience of interacting 
 o	The Contact Form has four fields; Name, Email, Subject and Message.
 o	Each text field has a placeholder and the subject field has a dropdown menu with options. Upon submitting, the form opens an email in a new tab. In the future this form will send an email without need for redirection. 
  
-### EFeatures Left to Implement
+### Features Left to Implement
 •	Testimonials section: In the coming months, we hope to ask the brands we are working with for a small testimonial to be included on the home page. This will serve as social proof. 
 •	Timeline section: Once we have a more confident understanding of the length of time needed to complete our services, we would love to include a timeline section. This would help to both manage expectations and form a social contract. 
 •	Collapsing Navbar with bars icon: Attempting to do this with just HTML and CSS was heart breaking. My attempt to create a pseudo-interactive navbar in the form of a div with position (-100%) that appeared upon clicking a button (in the form of a nav icon) resulted in 8 hours of coding to no avail. I am genuinely excited to be able to alleviate this frustration and create this navbar using JavaScript. 
@@ -66,13 +66,13 @@ o	Each text field has a placeholder and the subject field has a dropdown menu wi
 ## Design Choices
 
 #### Colour Scheme
-o	Our Colour Scheme for the website was based off our initial logo colours. The colours are blue and orange terracotta. 
-o	These colours were inspired by the chart below, which can be found here: https://www.fabmood.com/blue-and-orange-color-scheme/.
-o	Our main colour for the website is blue, with all accents orange. 
+•	Our Colour Scheme for the website was based off our initial logo colours. The colours are blue and orange terracotta. 
+•	These colours were inspired by the chart below, which can be found here: https://www.fabmood.com/blue-and-orange-color-scheme/.
+•	Our main colour for the website is blue, with all accents orange. 
  
 #### Typography
-o	I used the pairing of Oswald and Lato for this website, with Oswald being used for headings and Lato for the remainder of the website. 
-o	I find this font combination to be sleek and professional, perfect for our B2B website.
+•	I used the pairing of Oswald and Lato for this website, with Oswald being used for headings and Lato for the remainder of the website. 
+•	I find this font combination to be sleek and professional, perfect for our B2B website.
 
 
 
@@ -81,9 +81,9 @@ Sendy Retail was thoroughly tested in terms of validation, responsiveness and UX
 
 #### Validator Testing
 •	HTML
-o	No errors were returned when passing through the official W3C validator
+* •	No errors were returned when passing through the official W3C validator
 •	CSS
-o	No errors were found when passing through the official (Jigsaw) validator
+* •	No errors were found when passing through the official (Jigsaw) validator
 
 #### Responsiveness Testing
 •	The responsive design tests were carried out using Google Chrome DevTools and Responsive Design Checker.
@@ -98,22 +98,25 @@ The site was also tested using Google Lighthouse in Chrome Developer Tools to te
 •	Overall, after compression of media files, the website performs very well on both desktop and mobile.
  
 #### Peer review (Social Testing)
+
 Upon completion of this project, I sent the deployed link to my peers and business partner. My business partner advised that I make all headings uppercase and fix some sizing issues on the home page – these changes are reflected in the final deployed website. Overall the feedback was very positive on this front – I asked my peers to point out any issues, and none were found within the scope of this project.
-Fixed Bugs
+
+#### Fixed Bugs
+
 On small screen sizes, my navigation bar list order was incorrect. I attempted use column-reverse, translate, float-left, direction:rtl and many other methods to fix this, however none of these worked. I reached out to peers within the slack chat for this. Robert Kennedy was kind enough to come up with an idea to fix this, whereby I targeted the list item children individually and reversed their order with this method. I used a variation of this in my code in order to resolve the issue. I am thankful for this input, and armed with this knowledge I will be able to solve any similar future issues.
  
 
 ## Deployment
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 •	The site was deployed to GitHub pages. The steps to deploy are as follows:
-o	In the GitHub repository, navigate to the Settings tab
-o	From the source section drop-down menu, select the Master Branch
-o	Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* •	In the GitHub repository, navigate to the Settings tab
+* •	From the source section drop-down menu, select the Master Branch
+* •	Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
 ## Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+
 #### Content
 •	The font came from Google Fonts.
 •	The map is embedded from Google Maps.
